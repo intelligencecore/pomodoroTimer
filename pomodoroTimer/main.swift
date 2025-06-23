@@ -33,7 +33,7 @@ while userInput.lowercased() != "yes" {
 print("Great! Starting your session...")
 
 
-let pomodoroDuration = 2 // 1500 seconds,25 minutes.
+let pomodoroDuration = 25 * 60 // 1500 seconds,25 minutes.
 counterFunction(pomodoroDuration: pomodoroDuration)
 
 
